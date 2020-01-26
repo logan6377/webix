@@ -23,7 +23,7 @@ webix.protoUI({
 }, webix.ui.view)
 
 
-class App extends Component {
+class Container extends Component {
   mainUI(){
     return webix.ui({  
       padding:20,
@@ -56,4 +56,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Container;
